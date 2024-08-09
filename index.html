@@ -118,6 +118,44 @@
 							}
 						}
 					}
+					.experience{
+						.workDetails{
+							display: flex;
+							flex-direction: column;
+							gap:40px;
+							padding-top: 20px;
+							text-align: left;
+							.singleDetail{
+								display: flex;
+								flex-direction: column;
+								gap:5px;
+								.role{
+									ul{
+										list-style-position: inside;
+									}
+								}
+							}
+						}
+					}
+					.internship , .project{
+						.details{
+							display: flex;
+							flex-direction: column;
+							gap:10px;
+							padding-top: 20px;
+							text-align: left;
+							ul{
+								list-style-position: inside;
+								text-align:left;
+								width:600px;
+								
+							}
+							.description{
+								font-size: 16px;
+								font-weight: 300;
+							}
+						}
+					}
 					.techSkills{
 						.techHeading{
 							
@@ -156,6 +194,7 @@
 							}
 						}
 					}
+					
 				}
 				.footerSection{
 					display: flex;
@@ -185,6 +224,10 @@
 						}
 					}
 				}
+			}
+			.highlight{
+				font-weight: 500;
+				font-size: 20px;
 			}
 		</style>
 	</head>
@@ -293,14 +336,88 @@
 				<hr>
 				<div class="experience section" id="work">
 					<span class="sectionHeading">work experience</span>
+					<div class="workDetails">
+						<div class="singleDetail">
+							<span class="name highlight">1. Company: Hummingbird Web Solutions Pvt Ltd</span>
+							<span class="designation highlight">Desidnation: Software Developer</span>
+							<span class="duration highlight">Duration: December 2021 to February 2024</span>
+							<div class="role">
+								<ul>
+									<li>Experience in Magento and Drupal.</li>
+									<li>Worked on different languages like JavaScript, Php, Html, CSS, Tailwind, react and Material UI.</li>
+									<li> Worked on various projects and interacted with clients for project requirements.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="singleDetail">
+							<span class="name highlight">2. College: Shardabai Pawar College Baramati</span>
+							<span class="designation highlight">Desidnation: Assistant Professor (Mathematics and Computer Science)</span>
+							<span class="duration highlight">Duration: October 2020 to December 2021</span>
+							<div class="role">
+								<ul>
+									<li>Experience in teaching Mathematics for Graduate students.</li>
+									<li>Participated in Co-curriculum and Extra-curriculum Activities and collaborate with other
+										colleges.</li>
+									<li>With problem solving and analytical skills helped students to build mathematical models.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="singleDetail">
+							<span class="name highlight">3. Institute: Debugs Bunny Online Coding Institute</span>
+							<span class="designation highlight">Desidnation: Coding Teacher</span>
+							<span class="duration highlight">Duration: July 2020 to January 2021</span>
+							<span class="subject highlight">Subjects: Python, Java script, HTML, CSS</span>
+							<div class="role">
+								<ul>
+									<li>Experience in teaching coding and programming to students from standard 6th to 12th</li>
+									<li>Worked on platform like <q>Thunkable </q> to teach HTML and Java script</li>
+									<li>Took online classes for students all over India.</li>
+									<li>Good at handling Students of all age group.</li>
+								</ul>
+								
+
+
+
+							</div>
+						</div>
+					</div>
 				</div>
 				<hr>
 				<div class="internship section" id="internship">
 					<span class="sectionHeading">Internship</span>
+					<div class="details">
+						<span class="Name highlight">Company: BluePineapple Pvt Ltd</span>
+						<span class="designation highlight">Role: Intern (December 2019 to June 2020)</span>
+						<ul class="description">
+							<li>Developed a Mobile Application name Apex for an Institute.</li>
+							<li>Worked on React Native for front end and node JS for backend during the time period.</li>
+							<li> Learnt basics of salesforce.</li>
+						</ul>
+
+					</div>
+					
 				</div>
 				<hr>
 				<div class="project section" id="project">
 					<span class="sectionHeading">Project</span>
+					<div class="details">
+						<span class="Name highlight">Title: Attendance Management by Face Recognition</span>
+						<span class="designation highlight">Client: For any class in school College.</span>
+						<div class="description">
+							This is our attempt to make a Face recognition system for 
+							classroom or office attendance. The system is based on a special 
+							type of CNN architecture known as a Siamese network. Such a network is trained 
+							to generate a very accurate and almost unique 128 vector 
+							given that the images of face which are fed to the network 
+							and are properly aligned and cropped. Then another dense neural network 
+							is trained taking input these embeddings. The second neural network is 
+							only for classification purposes. Then the person who is identified
+							by the system, his/her attendance in the system is marked. 
+							When the system is closed, a excel file consisting of attendance of 
+							all the students is generated.
+						</div>
+
+					</div>
 				</div>
 				<hr>
 				<div class="techSkills section" id="techskill">
