@@ -1,0 +1,415 @@
+<html>
+	<head>
+		<title>Priya Deo CV</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+		<style>
+			*{
+				margin:0;
+				padding: 0;
+			}
+			body{ 
+				background-image: url(bg.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+			}
+			.container{
+					padding:40px;
+					background-color: #081b29;
+					color: white;
+					width:70%;
+					margin:50px auto;
+					border-radius: 40px;;
+
+				.headSection{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					padding-bottom: 20px;
+					.heading{
+						font-size: 32px;
+						padding-left: 150px;
+					}
+					.navbar{
+						span{
+							margin:0 20px;
+							a{
+								text-decoration: none;
+								color:white;
+								font-size: medium;
+							}
+							a:hover{
+								color:#05bced;
+							}
+						}
+					}
+				}
+				.mainSection{
+					padding:30px 0;
+					display: flex;
+					gap:20px;
+					flex-direction: column;
+					.section{
+						padding:20px 0;
+					}
+					.sectionHeading{
+						color:#0ea4df;
+						font-size: 24px;
+						margin-bottom: 20px;;
+					}
+					.basicInfo{
+						display: flex;
+						flex-direction: row;
+						
+						.leftInfo{
+							width:50%;
+							display: flex;
+							flex-direction: column;
+							gap:20px;
+							text-align: left;
+							padding-left: 150px;
+							padding-top:20px;
+							.Designation{
+								color:#05bced;
+								font-size: 24px;
+							}
+							.links{
+								display: flex;
+								flex-direction: column;
+								gap:10px;
+								a{
+									text-decoration: none;
+									color:white;
+									i{
+										color:#087db0;
+									}
+									span{
+										padding-left: 10px;
+										text-decoration: underline;
+										font-size: 18px;
+									}
+								}
+							}
+						}
+						.rightInfo{
+							width:50%;
+							img{
+								width: 250px;
+								height: 250px;
+								border-radius: 100%;
+								border:1px solid #b5b1b2;
+							}
+						}
+					}
+					.education{
+						.educationTable{
+							border-collapse: collapse;
+							border:1px solid white;
+							color:white;
+							caption{
+								
+							}
+							tr{
+								th,td{
+									border: 1px solid white;
+									padding:15px 25px;
+								}
+							}
+						}
+					}
+					.techSkills{
+						.techHeading{
+							
+						}
+						.skillGroup{
+							display: grid;
+							grid-template-columns: repeat(4, 1fr);
+							justify-content: center;
+							gap:40px;
+							padding-top:20px;
+							width:50%;
+							skillHeading{
+								color:white;
+								font-size: 18px;;
+							}
+							.skill{
+								width: 80%;
+								height:80px;
+							
+								img{
+									width:100%;
+									height:100%;
+									border-radius: 10px;;
+								}
+							}
+						}
+					}
+					.softSkills{
+						ul{
+							li{
+								list-style-position: inside;
+								list-style-type: none;
+								text-align: center;
+								font-size: 19px;
+								padding:10px;
+							}
+						}
+					}
+				}
+				.footerSection{
+					display: flex;
+					flex-direction: column;
+					gap:20px;
+					text-align: center;
+					.sectionHeading{
+						color:#0ea4df;
+						font-size: 24px;
+						margin-bottom: 20px;;
+					}
+					.links{
+						span{
+							margin:0 20px;
+							a{
+								text-decoration: none;
+								color:white;
+								font-size: 28px;
+								
+							}
+						}
+					}
+					.email{
+						a{
+							text-decoration: none;
+							color:white;
+						}
+					}
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+		<div class="container">
+			<header class="headSection">
+					<span class="heading">Priya Deo</span>
+					<nav class="navbar">
+							<span><a href="#about">About</a></span>
+							<span><a href="#education">Education</a></span>
+							<span><a href="#work">Work Experience</a></span>
+							<span><a href="#techskill">Skills</a></span>
+							<span><a href="#footer">Contact</a></span>
+					</nav>
+			</header><hr>
+			<div class="mainSection">
+				<div class="basicInfo section" id="about">
+					<div class="leftInfo">
+						<!--<span class="basicInfo">Basic Information</span>
+						<h2 class="fullName">Priya Sanket Deo</h2>-->
+						<span class="Designation">Full Stack Developer</span> 
+						
+						<div class="links">
+							<span title="Contact">
+								<a href="tel:+919075669607" title="Phone" class="phone">
+									<i class="fas fa-phone"></i>
+									<span>9075669607</span>
+								</a>
+								
+							</span>
+							<span class="email" title="email">
+								<a href="mailto:priyasanketdeo@gmail.com">
+									<i class="fas fa-envelope"></i>
+									<span>priyasanketdeo@gmail.com</span>
+								</a>
+								
+							</span>
+							<span title="github">
+								<a href="https://github.com/PriyaSDeo" target="_blank">
+									<i class="fab fa-github"></i>
+									<span>https://github.com/PriyaSDeo</span>
+								</a>
+							</span>
+							<span title="linkedin">
+								<a href="https://www.linkedin.com/in/priya-deo-bb772a189" target="_blank">
+									<i class="fab fa-linkedin"></i>
+									<span>https://www.linkedin.com/in/priya-deo-bb772a189</span>
+								</a>
+							</span>
+							<span title="hackerrank">
+								<a href="https://www.hackerrank.com/priyasanketdeo" target="_blank">
+									<i class="fas fa-laptop-code"></i>
+									<span>https://www.hackerrank.com/priyasanketdeo</span>
+								</a>
+							</span>
+							
+							
+						</div>
+						<!-- <p class="objectives">A Full Stack developer who is eager to learn new things and update with technologies.
+							With excellent communication and analyzing skills want to add values to Organization.
+							With a year of experience in development I believe there is algorithm in everything. 
+							With the help of Mathematical knowledge and technical skills, 
+							want to grow my wings professionally.</p> -->
+					</div>
+					<div class="rightInfo">
+						<img src="img2.jpg" alt="image not found"/>
+					</div>
+				</div>
+				<hr>
+				<div class="education section" id="education">
+					<table class="educationTable">
+						<caption class="sectionHeading">Education</caption>
+						<tr>
+							<th>Qualification</th>
+							<th>College</th>
+							<th>Year Of<br> Passing</th>
+							<th>Grade/<br>Percentage</th>
+						</tr>
+						<tr>
+							<td>Masters in Industrial Mathematics <br>with Computer Application</td>
+							<td>Fergusson College</td>
+							<td>2020</td>
+							<td>9.8 CGPA</td>
+						</tr>
+						<tr>
+							<td>Bachelor in Mathematics</td>
+							<td>Fergusson College</td>
+							<td>2017</td>
+							<td>82.1%</td>
+						</tr>
+						<tr>
+							<td>HSC</td>
+							<td>VP college Baramati</td>
+							<td>2014</td>
+							<td>78%</td>
+						</tr>
+						<tr>
+							<td>SSC</td>
+							<td>SNVS High School</td>
+							<td>2012</td>
+							<td>91%</td>
+						</tr>
+					</table>
+				</div>
+				<hr>
+				<div class="experience section" id="work">
+					<span class="sectionHeading">work experience</span>
+				</div>
+				<hr>
+				<div class="internship section" id="internship">
+					<span class="sectionHeading">Internship</span>
+				</div>
+				<hr>
+				<div class="project section" id="project">
+					<span class="sectionHeading">Project</span>
+				</div>
+				<hr>
+				<div class="techSkills section" id="techskill">
+						
+						<div>
+							
+							<span class="sectionHeading">Technical Skills</span>
+						</div>
+						<div class="skillGroup">
+							<div class="skill">
+								<span>Java</span>
+								<img src="java.png" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>Html</span>
+								<img src="html.png" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>Css</span>
+								<img src="css.png" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>Tailwind</span>
+								<img src="tailwind2.jpg" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>React</span>
+								<img src="react.png" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>javaScript</span>
+								<img src="js.jpg" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>mySQL</span>
+								<img src="mysql.png" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>C</span>
+								<img src="c.png" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>Cpp</span>
+								<img src="cpp.png" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>Linux</span>
+								<img src="linux.jpg" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>Material UI</span>
+								<img src="mui.png" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>Magento</span>
+								<img src="magento.png" alt="Java" />
+							</div>
+							<div class="skill">
+								<span>Drupal 10</span>
+								<img src="drupal10.png" alt="Java" />
+							</div>
+						</div>
+				</div>
+				<hr>
+				<div class="softSkills section" id="softSkills">
+					<span class="sectionHeading">Soft Skills</span>
+					<div>
+						<ul>
+							<li>Strategic Thinking</li>
+							<li>excellent Communication</li>
+							<li>Devoted to Work</li>
+							<li>emotional intelligence</li>
+							<li>Analytical Thinking</li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+			</div>
+			
+			<footer class="footerSection" id="footer">
+				
+					<span class="sectionHeading">Get In Touch</span>
+					<div class="links">
+						<span title="github">
+							<a href="https://github.com/PriyaSDeo" target="_blank">
+							<i class="fab fa-github"></i>
+						  </a>
+						</span>
+						<span title="linkedin">
+							<a href="https://www.linkedin.com/in/priya-deo-bb772a189" target="_blank">
+								<i class="fab fa-linkedin"></i>
+							  </a>
+						</span>
+						<span title="hackerrank">
+							<a href="https://www.hackerrank.com/priyasanketdeo" target="_blank">
+								<i class="fas fa-laptop-code"></i>
+							  </a>
+						</span>
+						<span class="email" title="email">
+							<a href="mailto:priyasanketdeo@gmail.com">
+								<i class="fas fa-envelope"></i>
+							  </a>
+						</span>
+						
+					</div>
+					
+			
+			</footer>
+		</div>
+		</center>
+	</body>
+</html>
