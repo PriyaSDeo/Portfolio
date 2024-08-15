@@ -9,7 +9,7 @@
 				padding: 0;
 			}
 			body{ 
-				background-image: url(bg.jpg);
+				background-image: url(bg18.jpg);
 				background-repeat: no-repeat;
 				background-size: cover;
 				background-position: center;
@@ -29,7 +29,7 @@
 					padding-bottom: 20px;
 					.heading{
 						font-size: 32px;
-						padding-left: 150px;
+						padding-left: 80px;
 					}
 					.navbar{
 						span{
@@ -68,7 +68,7 @@
 							flex-direction: column;
 							gap:20px;
 							text-align: left;
-							padding-left: 150px;
+							padding-left: 80px;
 							padding-top:20px;
 							.Designation{
 								color:#05bced;
@@ -132,6 +132,10 @@
 								.role{
 									ul{
 										list-style-position: inside;
+										li{
+											font-size: 16px;
+											font-weight: 300;
+										}
 									}
 								}
 							}
@@ -172,7 +176,7 @@
 								font-size: 18px;;
 							}
 							.skill{
-								width: 80%;
+								width: 100%;
 								height:80px;
 							
 								img{
@@ -229,6 +233,33 @@
 				font-weight: 500;
 				font-size: 20px;
 			}
+			@media only screen and (max-width: 1130px) {
+				.container{
+					.headSection{
+						.heading{
+							padding-left: 0px;
+						}
+					}
+					.mainSection{
+						.basicInfo{
+							.leftInfo{
+								padding-left: 0px;
+								.links a span{
+									font-size: 16px;
+								}
+							}
+						}
+						.softSkills{
+							ul{
+								li{
+									font-size: 16px;
+								}
+							}
+						}
+					}
+					
+				}
+			}
 		</style>
 	</head>
 	<body>
@@ -275,7 +306,7 @@
 							<span title="linkedin">
 								<a href="https://www.linkedin.com/in/priya-deo-bb772a189" target="_blank">
 									<i class="fab fa-linkedin"></i>
-									<span>https://www.linkedin.com/in/priya-deo-bb772a189</span>
+									<span>https://www.linkedin.com/in/priya-deo</span>
 								</a>
 							</span>
 							<span title="hackerrank">
@@ -294,7 +325,7 @@
 							want to grow my wings professionally.</p> -->
 					</div>
 					<div class="rightInfo">
-						<img src="img2.jpg" alt="image not found"/>
+						<img src="me.jpg" alt="image not found"/>
 					</div>
 				</div>
 				<hr>
